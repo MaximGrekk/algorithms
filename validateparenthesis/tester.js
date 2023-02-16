@@ -1,7 +1,7 @@
-const results = document.getElementById("results");
+const results = document.getElementById('results')
 
 function test(left, right) {
-  const result = document.createElement("li");
+  const result = document.createElement('li');
 
   if (left === right) {
     result.innerHTML = "Тест пройден!";

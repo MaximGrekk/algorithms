@@ -1,6 +1,6 @@
 const results = document.getElementById("results");
 
-export function test(left, right) {
+function test(left, right) {
   const result = document.createElement("li");
 
   if (left === right) {
